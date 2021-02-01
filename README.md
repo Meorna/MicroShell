@@ -27,7 +27,7 @@ eistish [exit:0|1ms] % wc -l < filelist.txt 44
 eistish [exit:0|4ms] %
 
 
-## Instructions pour compiler et exécuter le code et utiliser le makefile : 
+## Instructions pour compiler et exécuter le code et utiliser le makefile :
     Compiler : make
     Exécuter : ./exe
     Nettoyer : make clean
@@ -67,19 +67,19 @@ Pour cet exercie, j'ai suivi à la lettre l'affichage que le professeur nous as 
 Pour la question 2, je me suis servie du chapitre 2 sur les signaux vu en cours. Ensuite, pour la question 3, je me suis servie de la fonction donnée dans l'énoncé. Pour la question 5, je suis allée me renseigner sur le manuel des librairies.
 
 ## Résultat obtenu :
-Bienvenue dans le Micro Shell eistish
-Commandes :
-    exit : quitter
+    Bienvenue dans le Micro Shell eistish
+    Commandes :
+        exit : quitter
 
-eistish % ls
-bin  doc  exe  filelist.txt  Makefile  src
-eistish [exit:0|0.10ms] % toto
-eistish [sign:15|0.12ms] % hostname -i
-127.0.1.1
-eistish [exit:0|0.09ms] % ls > filelist.txt
-eistish [exit:0|0.10ms] % wc -l < filelist.txt
-6
-eistish [exit:0|0.10ms] % exit
+    eistish % ls
+    bin  doc  exe  filelist.txt  Makefile  src
+    eistish [exit:0|0.10ms] % toto
+    eistish [sign:15|0.12ms] % hostname -i
+    127.0.1.1
+    eistish [exit:0|0.09ms] % ls > filelist.txt
+    eistish [exit:0|0.10ms] % wc -l < filelist.txt
+    6
+    eistish [exit:0|0.10ms] % exit
 
 ## Section de références :
 https://arel.eisti.fr/documents/68085/download/01-Multiprocessing.pdf
